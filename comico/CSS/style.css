@@ -1,0 +1,273 @@
+html{
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    margin: 0px;
+    background-color:#3688D3;
+    height: 74px;
+    width: 359px;
+    border-radius: 6px;
+    margin: 52px 0px 0px 31px;
+}
+
+.logo2{
+    background-color:#3688D3;
+    height: 50px;
+    width: 334px;
+    margin: 12px 19px 7px 12px;
+}
+
+.text1{
+    color:#3688D3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+.textbox{
+    width: 209px;
+    height: 25px;
+    margin: 77px 6px 0px 6px;
+    text-align: center;
+}
+
+.textbox:hover{
+    background-color: lightskyblue;
+}
+
+.line{
+    width: 2px;
+    height: 32px;
+    margin-top: 73px;
+    background-color:#AFAFAF;
+}
+
+.shopping_cart{
+    width: 40.5px;
+    height: 36px;
+}
+
+.cartarea{
+    height: 36px;
+    width: 40.5px;
+    margin: 69px 3.64% 0px 3.64%;
+}
+
+.nav{
+    padding-top: 150px;
+    text-align: center;
+    width: 100%;
+    height: 10%;
+}
+
+aside{
+    width: 76%;
+    margin: auto;
+}
+
+.comics{
+    font-size: 40px;
+    font-weight: bold;
+    color:#3688D3;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+}
+
+.picseq{
+    display: flex;
+}
+
+.seq{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 30px;
+}
+
+.viewlist{
+    width: 25.5px;
+    height: 21px;
+    padding: 2px;
+}
+
+.detail{
+    font-size: 16px;
+    padding: 2px;
+    line-height: 1.1;
+    color:#3688D3;
+}
+
+.viewcomfy{
+    width: 25.5px;
+    height: 21px;
+    padding: 2px;
+}
+
+.seeall{
+    font-size: 16px;
+    padding: 2px;
+    line-height: 1.1;
+    color:#3688D3;
+}
+
+.comic{
+    width: 15.8%;
+    height: 15.8%;
+    margin: 0px 2.1%;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.16);
+    border: 0px;
+    padding: 0px;
+}
+
+.comic:hover{
+    box-shadow: -3px -3px 6px rgba(0, 0, 0, 0.329);
+    transform: translateY(2px);
+    transform: translateX(1px);
+}
+
+.urderpictext{
+    width: 225px;
+    height: 80px;
+    margin: 35px 34px 30px 30px;
+    text-align: center;
+}
+
+.alltext{
+    display: flex;
+}
+
+.picturctext{
+    font-size: 20px;
+    margin: 0;
+}
+
+article{
+    display:flex;
+    justify-content:center;
+    margin-top: 20px;
+}
+
+.uppage{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.uppage:hover{
+    color: lightskyblue;
+}
+
+.downpage{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.downpage:hover{
+    color: lightskyblue;
+}
+
+.pageone{
+    font-size: 18px;
+    padding: 5px;
+    color: #3688D3;
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.pageone:hover{
+    color: lightskyblue;
+}
+
+.pagetwo{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pagetwo:hover{
+    color: lightskyblue;
+}
+
+.pagethree{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pagethree:hover{
+    color: lightskyblue;
+}
+
+.pagefour{
+    font-size: 18px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.pagefour:hover{
+    color: lightskyblue;
+}
+
+.footer{
+    height: 20%;
+    background-color: #3688D3;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.showmore{
+    display: flex;
+    padding-left: 33.75%;
+    padding-right: 33.75%;
+}
+
+.textbox2{
+    width: 124px;
+    height: 33px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text2{
+    color:white;
+    font-size: 18px;
+}
+
+.line2{
+    width: 2px;
+    height: 26px;
+    margin-top: 30.5px;
+    background-color:white;
+}
+
+.information{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30.5px;
+    margin-bottom: 0px;
+}
+
+.companyinformation{
+    color:white;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-align: center;
+}

@@ -1,0 +1,288 @@
+html{
+    font-family: 'Noto Sans TC', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    margin: 0px;
+    background-color:#3688D3;
+    height: 74px;
+    width: 359px;
+    border-radius: 6px;
+    margin: 52px 0px 0px 31px;
+}
+
+.logo2{
+    background-color:#3688D3;
+    height: 50px;
+    width: 334px;
+    margin: 12px 19px 7px 12px;
+}
+
+.text1{
+    color:#3688D3;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+.textbox{
+    width: 209px;
+    height: 25px;
+    margin: 77px 6px 0px 6px;
+    text-align: center;
+}
+
+.textbox:hover{
+    background-color: lightskyblue;
+}
+
+.line{
+    width: 2px;
+    height: 32px;
+    margin-top: 73px;
+    background-color:#AFAFAF;
+}
+
+.shopping_cart{
+    width: 40.5px;
+    height: 36px;
+}
+
+.cartarea{
+    height: 36px;
+    width: 40.5px;
+    margin: 69px 3.64% 0px 3.64%;
+}
+
+.nav{
+    padding-top: 225px;
+    text-align: center;
+    width: 100%;
+    height: 7%;
+}
+
+article{
+    width: 100%;
+    height: 25%;
+}
+
+.login_text{
+    font-size: 40px;
+    font-weight: bold;
+    color:#3688D3;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.16);
+    margin-top: 0px;
+}
+
+.accountdiv{
+    display:flex;
+    justify-content:center;
+}
+
+.passworddiv{
+    display:flex;
+    justify-content:center;
+}
+
+.checkboxdiv{
+    display:flex;   
+    margin-top: 6px;
+    margin-bottom: 37px;
+    margin-left: 40%;
+    margin-right: 50%;
+}
+
+.acpwtext{
+    font-size: 25px;
+    color:#3688D3;
+    margin-bottom: 10px;
+}
+
+#account{
+    background-color: #EFEFEF;
+    width: 390px;
+    height: 30px;
+    border: 2px;
+    border-bottom: 2px #ABABAB solid;
+    padding: 0px 5px;
+}
+
+#password{
+    background-color: #EFEFEF;
+    width: 390px;
+    height: 30px;
+    border: 2px ;
+    border-bottom: 2px #ABABAB solid;
+    padding: 0px 5px;
+}
+
+.remembertext{
+    font-size: 12px;
+    color:#3688D3;
+    line-height: 1.1;
+}
+
+#remember{
+    width: 14px;
+    height: 14px;
+    border: 1px #ABABAB solid;
+    margin: 0px;
+}
+
+.forgetpw{
+    font-size: 12px;
+    color:#3688D3;
+    text-decoration: underline;
+    margin-left: 20px;
+    line-height: 1.1;
+}
+
+.twobutton{
+    display:flex;
+    justify-content:center;
+}
+
+.loginbutton{
+    width: 88px;
+    height: 40px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #3688D3;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 28px;
+}
+
+.loginbutton:hover{
+    background-color: rgb(79, 130, 179);
+    box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+    color: #fff;
+    transform: translateY(1px);
+}
+
+.registeredbutton{
+    width: 88px;
+    height: 40px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #3688D3;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0px 28px;
+}
+
+.registeredbutton:hover{
+    background-color: rgb(79, 130, 179);
+    box-shadow: 3px 3px 6px rgba(3, 60, 71, 0.336);
+    color: #fff;
+    transform: translateY(1px);
+}
+
+aside{
+    margin-top: 70px;
+    width: 100%;
+    height: 23%;
+}
+
+.onebutton{
+    display:flex;
+    justify-content:center;
+}
+
+.checkbuywhat{
+    width: 133px;
+    height: 40px;
+    border: 2px;
+    border-radius: 6px;
+    background-color: #3688D3;
+    color: white;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.checkbuywhat:hover {
+    background-color: rgb(114, 217, 243);
+    box-shadow: 0px 15px 20px rgba(83, 226, 255, 0.336);
+    color: #fff;
+    transform: translateY(-4px);
+}
+
+.redtextbox{
+    width: 39%;
+    height: 125px;
+    text-align: center;
+    margin: 17px 30.9% 0px 30.1%;
+}
+
+.redtext{
+    font-size: 21px;
+    color: #FF0000;
+}
+
+.footer{
+    height: 20%;
+    background-color: #3688D3;
+    width: 100%;
+}
+
+.showmore{
+    display: flex;
+    padding-left: 33.75%;
+    padding-right: 33.75%;
+}
+
+.textbox2{
+    width: 124px;
+    height: 33px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text2{
+    color:white;
+    font-size: 18px;
+}
+
+.line2{
+    width: 2px;
+    height: 26px;
+    margin-top: 30.5px;
+    background-color:white;
+}
+
+.information{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30.5px;
+    margin-bottom: 0px;
+}
+
+.companyinformation{
+    color:white;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    text-align: center;
+}
